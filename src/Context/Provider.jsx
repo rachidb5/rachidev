@@ -13,7 +13,6 @@ function Provider({ children }) {
     return (
         <Context.Provider value={ context }>
           { children }
-          { console.log(menu)}
         </Context.Provider>
       );
 }
