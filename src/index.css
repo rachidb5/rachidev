@@ -1,8 +1,13 @@
+@font-face {
+  font-family: 'post_no_bills_colombolight';
+  src: local("post_no_bills_colombolight"), url('./fonts/postnobillscolombo-light-webfont.woff');
+  font-weight: normal;
+  font-style: normal; 
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'post_no_bills_colombolight';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

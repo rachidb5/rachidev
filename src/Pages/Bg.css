@@ -1,0 +1,5 @@
+.bg {
+    height: 100vh;
+    --bs-bg-opacity: 1;
+    background: #30475e;
+}
