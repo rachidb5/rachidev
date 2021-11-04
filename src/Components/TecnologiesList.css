@@ -1,0 +1,19 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto 13px auto;
+    width: 70%;
+  }
+
+  .titulo-lista {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: underline;
+  }
+
+  .container-white{
+    background-color: white;
+}

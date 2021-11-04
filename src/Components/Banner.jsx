@@ -35,6 +35,7 @@ export default function Banner(props) {
                 </p>
             </div>
         </div>
+        <div className="space"/>
     </section>
 
     )

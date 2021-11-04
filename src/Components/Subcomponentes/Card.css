@@ -1,0 +1,15 @@
+  .gallery-card {
+    align-items: center;
+    background: linear-gradient(90.87deg, #351BD5 0.74%, #fff 140.78%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    justify-content: center;
+    margin: 0 10px 15px 0;
+    width: 250px;
+  }
+
+  .gallery-img {
+  margin: 10px;
+  }

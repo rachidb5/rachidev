@@ -10,6 +10,7 @@ body {
   font-family: 'post_no_bills_colombolight';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #30475e;
 }
 
 code {

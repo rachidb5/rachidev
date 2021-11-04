@@ -15,7 +15,7 @@ export default function Header(props) {
     return (
       <header>
       <nav className="navbar navbar-expand-lg d-flex justify-content-between">
-        <Link>
+        <Link to="/">
           <span className="navbar-brand mt-2"><img src={ Logo } alt="Logo"/></span>
         </Link>  
           <button
@@ -37,7 +37,7 @@ export default function Header(props) {
                 <Link><p className="white nav-link">Projetos</p></Link>
               </li>
               <li className="nav-item">
-                <Link><p className="white nav-link">Tecnologias</p></Link>
+                <Link to="/tecnologias"><p className="white nav-link">Tecnologias</p></Link>
               </li>
               <li className="nav-item">
                 <Link><p className="white nav-link">Contato</p></Link>

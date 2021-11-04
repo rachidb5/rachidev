@@ -14,7 +14,7 @@ export default function DropdownHeader(props) {
             <Link><p className="white nav-link">Projetos</p></Link>
           </li>
           <li className="nav-item">
-            <Link><p className="white nav-link">Tecnologias</p></Link>
+            <Link  to="/tecnologias"><p className="white nav-link">Tecnologias</p></Link>
           </li>
           <li className="nav-item">
             <Link><p className="white nav-link">Contato</p></Link>
