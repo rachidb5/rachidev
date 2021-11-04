@@ -8,16 +8,21 @@ export default function DropdownHeader(props) {
       <div className="dropdown ml-5">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <Link>Sobre</Link>
+            <hr/>
+            <Link to="/sobre">Sobre</Link>
+            <hr/>
           </li>
           <li className="nav-item">
-            <Link>Projetos</Link>
+            <Link to="/projetos">Projetos</Link>
+            <hr/>
           </li>
           <li className="nav-item">
-            <Link  to="/tecnologias">Tecnologias</Link>
+            <Link to="/tecnologias">Tecnologias</Link>
+            <hr/>
           </li>
           <li className="nav-item">
-            <Link>Contato</Link>
+            <Link to="/contato">Contato</Link>
+            <hr/>
           </li>
         </ul>
       </div>

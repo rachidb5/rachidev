@@ -15,7 +15,7 @@ export default function Banner(props) {
             <div class="align-self-center ml-auto mr-auto">
                     
                 <h1 class="white">Olá, seja bem vindo</h1>
-                <p class="white paragrafo-banner ml-auto mr-auto">
+                <p class="white paragrafo-banner ml-auto mr-auto mb-3">
                  Meu nome é Rachid Bastos. Sou desenvolvedor front-end/back-end e mobile e esse é meu portfólio. 
                 Aqui, você irá saber um pouco sobre mim e sobre meu trabalho.
                  Espero que você goste do que encontrar aqui :)
@@ -25,7 +25,7 @@ export default function Banner(props) {
                      Fala Comigo
                 </a>
                                               
-                 <p class="white mt-5 ml-5">Ou me adiciona aqui: 
+                 <p class="white mt-3 ml-5">Ou me adiciona aqui: 
                     <a href="https://www.linkedin.com/in/roberto-bastos-12b292125/" target="_blank">
                         <span class="fab fa-linkedin fa-lg"></span>
                     </a>

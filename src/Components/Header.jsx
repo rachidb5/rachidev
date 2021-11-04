@@ -31,16 +31,16 @@ export default function Header(props) {
           <div className="collapse navbar-collapse navbar-toggler mt-3" id="navbarNavDropdown">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <Link><p className="white nav-link">Sobre</p></Link>
+                <Link to="/sobre"><p className="white nav-link">Sobre</p></Link>
               </li>
               <li className="nav-item">
-                <Link><p className="white nav-link">Projetos</p></Link>
+                <Link to="/projetos"><p className="white nav-link">Projetos</p></Link>
               </li>
               <li className="nav-item">
                 <Link to="/tecnologias"><p className="white nav-link">Tecnologias</p></Link>
               </li>
               <li className="nav-item">
-                <Link><p className="white nav-link">Contato</p></Link>
+                <Link to="/contato"><p className="white nav-link">Contato</p></Link>
               </li>
             </ul>
           </div>
