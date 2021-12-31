@@ -22,15 +22,15 @@ export default function Banner(props) {
                  </p>
                      
                 <a class="botao mt-5" href="#contato">
-                     Fala Comigo
+                     <span className="text-light">Fala Comigo</span>
                 </a>
                                               
                  <p class="white mt-3 ml-5">Ou me adiciona aqui: 
                     <a href="https://www.linkedin.com/in/roberto-bastos-12b292125/" target="_blank">
-                        <span class="fab fa-linkedin fa-lg"></span>
+                        <span class="fab fa-linkedin fa-lg text-light"></span>
                     </a>
                     <a href="https://github.com/rachidb5/" target="_blank">
-                        <span class="fab fa-github fa-lg"></span>
+                        <span class="fab fa-github fa-lg text-light"></span>
                     </a>
                 </p>
             </div>

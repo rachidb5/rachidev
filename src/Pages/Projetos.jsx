@@ -7,6 +7,7 @@ import DropdownHeader from '../Components/DropdownHeader';
 import Footer from '../Components/Footer';
 import ProjectCard from '../Components/ProjectCard';
 import Data from '../Data/projectsData';
+import { Carousel } from 'react-responsive-carousel';
 
 function Main() {
   const { menu }= useContext(Context);
@@ -24,7 +25,6 @@ function Main() {
          repository={p.repository}
          />
       )}
-
       <Footer />
     </div>
   )

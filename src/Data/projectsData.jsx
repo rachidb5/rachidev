@@ -1,5 +1,6 @@
 import blackjack from '../assets/blackjack.png';
-import colorguess from '../assets/colorguess.png'
+import colorguess from '../assets/colorguess.png';
+import meetpets from '../assets/meetpets.png';
 
 const projects = [
     {
@@ -17,6 +18,14 @@ const projects = [
         projectLink: 'https://color-guess-sooty.vercel.app/',
         repository: 'https://github.com/rachidb5/color-guess',
         index: 'flex-lg-row' 
+    },
+    {
+        projectName: "MeetPets",
+        description: "Evento fictício de adoção de animais com fim expandir e complementar o portfolio. Foi criada uma API com NodeJS, MongoDB e express em que o usuario efetuava o cadastro e recebia um QRcode que era o convite para o evento ",
+        projectImg: meetpets,
+        projectLink: 'https://meetpets-qrcode.herokuapp.com/',
+        repository: 'https://github.com/rachidb5/meetpets-back',
+        index: 'flex-lg-row-reverse' 
     }
 ]
 

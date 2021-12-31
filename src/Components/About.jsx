@@ -14,7 +14,7 @@ export default function About(props) {
                     <p className="sobre-paragrafo mb-2">
                     Meu nome é Roberto Rachid Bastos, brasileiro e moro em Fortaleza-CE. 
                     Sou Estudante de Egenharia Mecatrônica, Pessoa estudante na <a href="https://www.betrybe.com/">
-                    Trybe</a> e  desenvolvedor front-end/back-end e esse é meu portfólio. 
+                    <span className='text-light'>Trybe</span></a> e  desenvolvedor front-end/back-end e esse é meu portfólio. 
                     Aqui, você irá saber um pouco sobre mim e sobre o meu trabalho. 
                     Espero que você goste do que encontrar e ,caso eu possa te ajudar entre em contato comigo.                   
                     </p>
