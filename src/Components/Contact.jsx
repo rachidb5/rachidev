@@ -9,10 +9,10 @@ export default function Contact(props) {
             <a href="https://github.com/rachidb5/" target="_blank">
                 <span className="fab fa-github fa-lg text-light"></span>
             </a>
-            <a href="https://github.com/rachidb5/" target="_blank">
+            <a href="jordan.rachid@gmail.com" target="_blank">
                 <span className="fas fa-envelope-square fa-lg text-light"></span>
             </a>
-            <a href="https://github.com/rachidb5/" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=5585998310570" target="_blank">
                 <span className="fab fa-whatsapp-square fa-lg text-light"></span>
             </a>
         </div>

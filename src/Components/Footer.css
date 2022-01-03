@@ -3,4 +3,6 @@
 }
 .margem{
     margin-left: 20px;
+    position:absolute;
+    margin-bottom: 1vh;
 }

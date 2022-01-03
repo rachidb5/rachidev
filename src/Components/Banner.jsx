@@ -19,12 +19,7 @@ export default function Banner(props) {
                  Meu nome é Rachid Bastos. Sou desenvolvedor front-end/back-end e mobile e esse é meu portfólio. 
                 Aqui, você irá saber um pouco sobre mim e sobre meu trabalho.
                  Espero que você goste do que encontrar aqui :)
-                 </p>
-                     
-                <a class="botao mt-5" href="#contato">
-                     <span className="text-light">Fala Comigo</span>
-                </a>
-                                              
+                 </p>                         
                  <p class="white mt-3 ml-5">Ou me adiciona aqui: 
                     <a href="https://www.linkedin.com/in/roberto-bastos-12b292125/" target="_blank">
                         <span class="fab fa-linkedin fa-lg text-light"></span>
@@ -32,10 +27,16 @@ export default function Banner(props) {
                     <a href="https://github.com/rachidb5/" target="_blank">
                         <span class="fab fa-github fa-lg text-light"></span>
                     </a>
+                    <a href="jordan.rachid@gmail.com" target="_blank">
+                        <span className="fas fa-envelope-square fa-lg text-light"></span>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5585998310570" target="_blank">
+                        <span className="fab fa-whatsapp-square fa-lg text-light"></span>
+                    </a>
                 </p>
             </div>
         </div>
-        <div className="space"/>
+        <div className="gap"/>
     </section>
 
     )

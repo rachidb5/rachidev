@@ -16,6 +16,8 @@ function Main() {
     <div className="bg">
       <Header />
       {menu ? <DropdownHeader/>: null }
+
+    <h1 className="titulo-listas text-light" id="tecnologias">Projetos</h1>
       {Data.map((p) => <ProjectCard 
          index={p.index}
          projectName={p.projectName}

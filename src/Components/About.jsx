@@ -5,7 +5,7 @@ import Rachidb from '../assets/rachidb.jpg'
 export default function About(props) {
     return (
         <section id="sobre" className="container-responsive">
-            <h1 className="display-2 text-white"> Sobre</h1>
+    <h1 className="titulo-listas text-light" id="tecnologias">Sobre</h1>
             <div className="d-flex justify-content-xl-evenly mb-5 container-responsive">
                 <div className="mb-5">
                     <img src={ Rachidb} alt="Roberto Bastos - Desenvolvedor Web" id="foto" className="foto-sobre" />
@@ -18,11 +18,9 @@ export default function About(props) {
                     Aqui, você irá saber um pouco sobre mim e sobre o meu trabalho. 
                     Espero que você goste do que encontrar e ,caso eu possa te ajudar entre em contato comigo.                   
                     </p>
-                    <a className="botao"  href="#contato">
-                        Fala Comigo
-                   </a>
                 </div>
             </div>
+            <div className="divider"/>
         </section>
     )
 }

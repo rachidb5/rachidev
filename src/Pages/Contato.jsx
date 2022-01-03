@@ -14,8 +14,9 @@ function Main() {
     <div className="bg">
       <Header />
       {menu ? <DropdownHeader/>: null }
+      <h1 className="titulo-listas text-light" id="tecnologias">Contato</h1>
         <Form />
-        <div className="space"/>
+        <div className="space" />
       <Footer />
     </div>
   )
