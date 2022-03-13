@@ -1,7 +1,7 @@
 import blackjack from '../assets/blackjack.png';
 import colorguess from '../assets/colorguess.png';
 import meetpets from '../assets/meetpets.png';
-import jokenpo from '../assets/jokenpo.png'
+import jokenpo from '../assets/jokenpo.jpeg'
 
 const projects = [
     {
