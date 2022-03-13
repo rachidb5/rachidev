@@ -1,6 +1,7 @@
 import blackjack from '../assets/blackjack.png';
 import colorguess from '../assets/colorguess.png';
 import meetpets from '../assets/meetpets.png';
+import jokenpo from '../assets/jokenpo.png'
 
 const projects = [
     {
@@ -26,6 +27,14 @@ const projects = [
         projectLink: 'https://meetpets-qrcode.herokuapp.com/',
         repository: 'https://github.com/rachidb5/meetpets-back',
         index: 'flex-lg-row-reverse' 
+    },
+    {
+        projectName: "JoKenPo",
+        description: "Implementação do clássico pedra, papel, tesoura para web usando HTML, CSS, javascript e VueJS. Foi me primeiro contato com o framework.",
+        projectImg: jokenpo,
+        projectLink: 'https://jokenpo-vue.vercel.app/',
+        repository: 'https://github.com/rachidb5/jokenpo-vue',
+        index: 'flex-lg-row' 
     }
 ]
 
