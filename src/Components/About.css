@@ -1,7 +1,13 @@
 .foto-sobre{
+    display: flex;
+    object-fit: cover;
+    align-self: flex-end;
     border-radius: 50%;
     padding: 10px;
+    object-position: center top;
     background-image: linear-gradient(90deg, #351BD5 3.51%, #1BD4AB 89.73%);
+    width: 300px;
+    height: 300px;
 }
 
 .divider{
@@ -22,4 +28,11 @@ p{
     text-decoration: none;
     font-family: 'post_no_bills_colombolight';
     color: white;
+}
+
+img{
+    display: flex;
+    object-fit: cover;
+    align-self: flex-end;
+    padding-top: 50px;
 }

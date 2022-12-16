@@ -1,13 +1,13 @@
 import React from "react";
 import "./About.css";
-import Rachidb from '../assets/rachidb.jpg'
+import Rachidb from '../assets/rachidb.jpeg'
 
 export default function About(props) {
     return (
         <section id="sobre" className="container-responsive">
     <h1 className="titulo-listas text-light" id="tecnologias">Sobre</h1>
             <div className="d-flex justify-content-xl-evenly mb-5 container-responsive">
-                <div className="mb-5">
+                <div className="mb-5 img-container">
                     <img src={ Rachidb} alt="Roberto Bastos - Desenvolvedor Web" id="foto" className="foto-sobre" />
                 </div>
                 <div>
