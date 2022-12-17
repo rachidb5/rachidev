@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Banner.css";
 import BannerImg from '../assets/banner-img.png'
-
+import Context from '../Context/Context';
 
 export default function Banner(props) {
- 
+ const { language } = useContext(Context)
     return (
         <section id="banner">
               
@@ -14,7 +14,7 @@ export default function Banner(props) {
             </div>
             <div class="align-self-center ml-auto mr-auto">
                     
-                <h1 class="white">Olá, seja bem vindo</h1>
+                {language ? <h1 class="white">Hi, welcome</h1> : <h1 class="white">Olá, seja bem vindo</h1>}
                 <p class="white paragrafo-banner ml-auto mr-auto mb-3">
                  Meu nome é Rachid Bastos. Sou desenvolvedor front-end/back-end e mobile e esse é meu portfólio. 
                 Aqui, você irá saber um pouco sobre mim e sobre meu trabalho.
