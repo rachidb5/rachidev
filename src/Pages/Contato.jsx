@@ -9,12 +9,10 @@ import Footer from '../Components/Footer';
 import Contact from '../Components/Contact';
 
 function Main() {
-  const { menu }= useContext(Context);
+  const { menu, language }= useContext(Context);
   return (
     <div className="bg">
-      <Header />
-      {menu ? <DropdownHeader/>: null }
-      <h1 className="titulo-listas text-light" id="tecnologias">Contato</h1>
+      <h1 className="titulo-listas text-light" id="tecnologias">{language ? 'Contact':'Contato'}</h1>
         <Form />
         <div className="space" />
       <Footer />
