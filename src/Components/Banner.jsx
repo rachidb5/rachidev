@@ -20,8 +20,8 @@ export default function Banner(props) {
           {language ? (
             <p class="white paragrafo-banner ml-auto mr-auto mb-3">
               My name is Rachid Bastos. I am a front-end developer from Brazil
-              and this is my personal website Here you can contact my work and
-              learn more about me. I hope you will like what you will find here
+              and this is my personal website. Here you can get to know my work
+              and learn more about me. I hope you will like what you find here
             </p>
           ) : (
             <p class="white paragrafo-banner ml-auto mr-auto mb-3">
@@ -32,7 +32,7 @@ export default function Banner(props) {
             </p>
           )}
           <p class="white mt-3 ml-5">
-           { language? "Or Add me here":'Ou me adiciona aqui: '}
+            {language ? "Or Add me here" : "Ou me adiciona aqui: "}
             <a
               href="https://www.linkedin.com/in/roberto-bastos-12b292125/"
               target="_blank"

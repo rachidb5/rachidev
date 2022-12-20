@@ -11,8 +11,6 @@ function Main() {
   const { menu }= useContext(Context);
   return (
     <div className="bg">
-      <Header />
-      {menu ? <DropdownHeader/>: null }
       <Banner />
       <Footer />
     </div>
