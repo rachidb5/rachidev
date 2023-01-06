@@ -9,13 +9,20 @@ function Form(props) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [content, setContent] = useState("");
+  const [sent, setSent] = useState(0)
+
   async function formSend() {
     await axios.post("https://mailsender.fly.dev/", {
       from: `${name}, ${email}`,
       to: "jordan.rachid@gmail.com",
       subject: `${name}, ${email}`,
       html: `<span>${content}</span>`,
-    }).then(res => console.log(res)).catch(e => console.log(e.res))
+    }).then(res => {
+      console.log(res)
+      if(res.status === 201){
+        setSent(1)
+      }
+    }).catch(e => console.log(e.res))
   }
   return (
     <div className="d-flex justify-content-evenly mt-5">
@@ -25,14 +32,14 @@ function Form(props) {
             <label>{language ? "Nome: " : "Name: "}</label>
             <input
               type="name"
-              class="form-control mt-2"
+              className="form-control mt-2"
               placeholder={language ? "Type your name" : "Digite seu nome"}
               onChange={(e)=>setName(e.target.value)}
             />
             <label>Email: </label>
             <input
               type="email"
-              class="form-control mt-2"
+              className="form-control mt-2"
               placeholder={language ? "Type your email" : "Digite seu email"}
               onChange={(e)=>setEmail(e.target.value)}
             />
@@ -47,7 +54,14 @@ function Form(props) {
           <button className="btn btn-primary mt-2 col-12" type="button" onClick={() => formSend()}>
             {language ? "Send: " : "Enviar: "}
           </button>
+          {}
         </form>
+        {sent === 1 ?<div className="bg-success mt-3 d-flex flex-row justify-content-center p-2">
+          <span className="text-white white">Mensagem enviada</span>
+        </div>: <div></div>}
+        {sent === -1 ?<div className="bg-danger mt-3 d-flex flex-row justify-content-center p-2">
+          <span className="text-white white">Erro ao enviar mensagem</span>
+        </div>: <div></div>}
       </div>
       <Contact />
     </div>
