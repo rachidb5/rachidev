@@ -13,7 +13,7 @@ function Form(props) {
     await axios.post("https://mailsender.fly.dev/", {
       from: `${name}, ${email}`,
       to: "jordan.rachid@gmail.com",
-      subject: name,
+      subject: `${name}, ${email}`,
       html: `<span>${content}</span>`,
     }).then(res => console.log(res)).catch(e => console.log(e.res))
   }
