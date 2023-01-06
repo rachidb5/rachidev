@@ -7,7 +7,6 @@ import DropdownHeader from '../Components/DropdownHeader';
 import Footer from '../Components/Footer';
 import ProjectCard from '../Components/ProjectCard';
 import { projects, projectsEn } from '../Data/projectsData';
-import { Carousel } from 'react-responsive-carousel';
 
 function Main() {
   const { menu, language }= useContext(Context);
